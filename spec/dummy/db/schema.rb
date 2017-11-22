@@ -358,7 +358,6 @@ ActiveRecord::Schema.define(version: 20171121212302) do
     t.text     "history",    limit: 65535
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "color"
   end
 
   create_table "validation_testers", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
